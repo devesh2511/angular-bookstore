@@ -1,0 +1,12 @@
+<div class="card m-2 text-center">
+    <img src="{{book?.image}}" class="card-img-top" alt="..." style="height:300px">
+    <div class="card-body">
+      <h3 class="card-title fw-bold">{{book?.title}}</h3>
+      <!-- <p class="card-text">{{book?.summary}}</p> -->
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Author : {{book?.author}} </li>
+        <li class="list-group-item">Price : {{book?.price?.displayValue}} {{book?.price?.currency}}</li>
+      </ul>
+      <a href="#" class="btn btn-success button" (click)="addToCart(book!)">Add to cart</a>
+    </div>
+</div>

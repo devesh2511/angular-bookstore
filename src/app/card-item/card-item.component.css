@@ -1,0 +1,27 @@
+.card{
+    width: 15rem;
+    height: fit-content;
+    margin: 15px!important;
+    box-shadow: 7px 7px 7px 0px #4a4232;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+
+.button{
+    border: none;
+    outline: none;
+    color: #4a4232;
+    background-color: #fdf7eb!important;
+    box-shadow: 1px 1px 4px #4a4232;
+    border-radius: 0px;
+}
+
+
+.btn:hover{
+    outline: none;
+    color: #000000;
+    background-color: #fff4de;
+    box-shadow: 1px 1px 5px 2px #969081;
+}
